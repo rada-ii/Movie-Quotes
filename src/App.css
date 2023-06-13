@@ -136,9 +136,15 @@ h1 {
 }
 
 .vote-buttons button:last-child {
-  background-image: linear-gradient(135deg, #3b82f6, #ef4444, #16a34a, #eab308);
+  /* background-image: linear-gradient(135deg, #3b82f6, #ef4444, #16a34a, #eab308); */
   font-family: "Coiny", sans-serif;
   color: #000;
+  background-color: #bcd0f1;
+}
+
+.vote-buttons button:last-child:hover {
+  color: #9b7373;
+  background-color: #2a0606;
 }
 
 ul {
